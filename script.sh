@@ -14,3 +14,4 @@ sudo apt-get install php7.0 php7.0-cli php7.0-common php7.0-curl php7.0-dev php7
 #Install composer
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 
+composer create-project --prefer-dist laravel/laravel blog
